@@ -24,15 +24,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/aluno/.m2/repository/org/apache/tomcat/tomcat-servlet-api/9.0.17/tomcat-servlet-api-9.0.17.jar" sourcepath="/home/aluno/.m2/repository/org/apache/tomcat/tomcat-servlet-api/9.0.17/tomcat-servlet-api-9.0.17-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="org.eclipse.jst.component.archivename" value="tomcat-servlet-api-9.0.17.jar"/>
-			<attribute name="maven.groupId" value="org.apache.tomcat"/>
-			<attribute name="maven.artifactId" value="tomcat-servlet-api"/>
-			<attribute name="maven.version" value="9.0.17"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
