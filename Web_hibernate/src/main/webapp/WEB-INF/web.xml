@@ -36,6 +36,12 @@
 		<description></description>
 		<servlet-class>servlets.cadastroServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>cadastroUsuario</servlet-name>
+		<display-name>cadastroUsuario</display-name>
+		<description></description>
+		<servlet-class>servlets.cadastroUsuario</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>loginServlet</servlet-name>
 		<url-pattern>/loginServlet</url-pattern>
@@ -43,6 +49,10 @@
 	<servlet-mapping>
 		<servlet-name>cadastroServlet</servlet-name>
 		<url-pattern>/cadastroServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>cadastroUsuario</servlet-name>
+		<url-pattern>/cadastroUsuario</url-pattern>
 	</servlet-mapping>
 	
 </web-app>
